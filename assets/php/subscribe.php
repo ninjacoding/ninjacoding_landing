@@ -13,7 +13,7 @@
 
 	if($api->listSubscribe($list_id, $email) === true) {
 		$sendstatus = 1;
-		$message = 'Success! Check your email to confirm sign up.';
+		$message = 'Correcto! Revisar su email para confirmar su suscripción.';
 	} else {
 		$sendstatus = 0;
 		$message = $api->errorMessage;
