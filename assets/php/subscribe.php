@@ -2,7 +2,7 @@
 
 	// MailChimp settings
 	$APIKey = 'db9ca5c64f88200ebfc4aa70866ac3dc-us7';
-	$listID = 'aeb4861f46';
+	$listID = '286dec29fb';
 
 	$email   = $_POST['email'];
 
